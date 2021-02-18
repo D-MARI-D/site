@@ -1,0 +1,440 @@
+/*Обнуление*/
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+@media (min-width: 1024px) and (max-width: 1240px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 640px) and (max-width: 768px) {
+}
+@media (min-width: 480px) and (max-width: 640px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+/*body*/
+
+html,body{
+	height: 100%;
+}
+
+.body{
+	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
+}
+
+/*wrapper*/
+
+.wrapper .wrapper__images1{
+	background: url(../images/Дизайн-сайта-ВАША-ПОМОЩЬ.gif);
+ 	background-repeat: no-repeat;
+	width: 100%;
+	top: 0rem;
+	left: 0rem;
+}
+
+.wrapper .wrapper__images2{
+	background: url(../images/Подвал-текстура.gif);
+	background-repeat: no-repeat;
+	height: 10rem;
+	width: 100%;
+	bottom: 0rem;
+}
+
+.wrapper .container{
+	position: relative;
+ 	max-width: 71.25rem;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	z-index: 1;
+}
+
+/*header*/
+
+.header{
+	display: block;
+	width: 100%;
+}
+
+.header .header__images{
+	float: left;
+	display: block;
+	max-width: 25rem;
+	max-height: 10.625rem;
+	padding: 0.3% 0 0 0;
+}
+
+.header .header__text{
+	float: right;
+	display: block;
+	padding: 5% 0 0 0;
+	font-size: 1.5rem;
+	color: #dee4d5;
+	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
+}
+
+.header .header__text span{
+	display: block;
+	text-align: right;
+}
+
+.header .header__text .header__tel{
+	float: right;
+	font-size: 1.875rem;
+}
+
+/*content*/
+
+.container .content{
+ 	width: 100%;
+	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
+}
+
+/*main__content*/
+
+.main__content h1{
+	display: block;
+	width: 65%;
+	padding: 20% 0 2% 0;
+	font-size: 5rem;
+	color: #fff;
+	font-weight: 400;
+	line-height: 120%;
+	
+}
+
+.main__content .content__button a{
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.main__content .content__button a{
+	display: inline-block;
+	padding: 1.25rem 1.875rem;
+	margin: 0 0 2% 0;
+	border-radius: 0.875rem;
+	background-image: linear-gradient( to right,rgba(10,183,153,1) 0%,rgba(7,227,157,1) 50%,rgba(10,183,153,1) 100%);
+	background-size: 200% auto;
+	box-shadow: 0 0.0625rem 0.75rem 0 rgba(203, 206, 212, 0.486);
+	transition: .8s;
+}
+
+.main__content .content__button a:hover {
+	background-position: right center;
+} 
+
+.main__content .content__text {
+	display: block;
+	font-size: 0.875rem;
+	color: #fff;
+	width: 40%;
+	padding: 0 0 4% 0;
+	text-transform: uppercase;
+	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
+}
+
+/*content__windows*/
+
+.content__windows{
+	width: 100%;
+}
+
+.content__windows .content__text2{
+	font-size: 2.375rem;
+	color: #fff;
+	padding: 0 0 2% 2%;
+	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
+}
+
+.content__windows .wrapper__windows{
+	display: flex;
+	padding: 0 0 0 2%;
+}
+
+.content__windows .wrapper__windows img{
+	max-width: 6.5625rem;
+	margin: 1.5625rem 0 0 -1.25rem;
+}
+
+.content__windows .wrapper__windows p{
+	display: inline-block;
+	margin: 2rem 0.3125rem 0 -0.1875rem;
+	width: 9.375rem;
+	color: #000;
+	font-weight: 400;
+	text-align: left;
+	vertical-align: top;
+	font-style: italic;
+}
+
+.content__windows .wrapper__windows .windows1 {
+	flex: 0 0 0.333% ;
+}
+
+.content__windows .wrapper__windows .windows1 .window__text{
+	display: inline-block;
+	background-color: #fff;
+	min-width: 13.75rem;
+	height: 8.4375rem;
+	margin: 0 2% 3% 0;
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
+	box-sizing: border-box;
+	vertical-align: bottom;
+	font-family: 'Noto Serif', serif;
+}
+
+.content__windows .wrapper__windows .windows2 .window__text{
+	display: inline-block;
+	background-color:  #fff;
+	min-width: 13.75rem;
+	height: 8.4375rem;
+	margin: 0 2% 6% 0;
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
+	box-sizing: border-box;
+	vertical-align: bottom;
+	font-family: 'Noto Serif', serif;
+}
+
+.content__windows .wrapper__windows .windows1 :last-child {
+	margin-right: 0%;
+}
+
+.content__windows .wrapper__windows .windows2 :last-child {
+	margin-right: 0%;
+}
+
+/*content__images*/
+
+.content__images{
+	width: 100%;
+}
+
+.content__images .numbers p{
+	max-width: 60% ;
+	font-size: 1.25rem;
+	margin: 0 0 0 7%;
+	font-style: italic;
+}
+
+.content__images .numbers{
+	width: 70%;
+	vertical-align: top;
+}
+
+.content__images .numbers :last-child {
+	margin-right: 0rem;
+}
+
+.content__images .number{
+	float: left;
+	margin: 0 11% 10% 0;
+}
+.content__images .number .num{
+	margin-top: -0.313rem;
+}
+
+.content__images .number img{
+	max-width: 21.875rem;
+}
+
+.content__images .cards{
+	float: left;
+	width: 68%;
+}
+
+.content__images .cards .card{
+	float: left;
+	margin-right: 22%;
+	margin-bottom: 8%;
+}
+
+.content__images .cards :last-child {
+	margin-right: 0%;
+}
+
+/*form*/
+
+.content__images .forma{
+	position: relative;
+	float: right;
+	display: block;
+	margin-top: -22%;
+	right: 0;
+	max-width: 22.5rem;
+	height: 30rem;
+	padding: 0.9375rem 0.9375rem;
+	box-shadow: 0.9375rem 0.9375rem 2.5rem 0.625rem rgba(0, 0, 0, 0.13);
+	background-color: #fff;
+	z-index: 2;
+}
+
+.content__images .forma .border{
+	border: 0.125rem dotted #858d9c;
+	height: 100%;
+	width: 100%;
+}
+
+.content__images .forma .border .form{
+	height: 100%;
+	margin: 0 auto;
+}
+
+.content__images .forma .border .form input{
+	background-color: #f7f3ff;
+	margin: 0 0 0.9375rem 2.5rem;
+	font-size: 1rem;
+	height: 2.5rem;
+	width: 15rem;
+	border-radius: 0.625rem;
+	font-style: italic;
+	padding-left: 0.625rem;
+}
+
+.content__images .forma .border .form h3{
+	font-size: 1.125rem;
+	margin: 1.875rem 0 0.3125rem 0;
+	font-weight: 600;
+	text-align: center;
+}
+
+.content__images .forma .border .form p{
+	font-size: 1.125rem;
+	color: #9a9ea5;
+	margin: 0 0 1.25rem 0;
+	text-align: center;
+	font-style: italic;
+}
+
+.content__images .forma .border .form span{
+	display: inline-block;
+	font-size: 1rem;
+	margin: 0 0 0 2.1875rem;
+	text-align: center;
+	font-style: italic;
+}
+
+.content__images .forma .border .form .amounts{
+	margin-bottom: 0.625rem;
+}
+
+.content__images .forma .border .form .btn{
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+	width: 15rem;
+	height: 3.75rem;
+	margin: 0.625rem 0.1875rem 0 0;
+	text-align: center;
+	font-size: 1.125rem;
+	font-weight: 400;
+	font-style: normal;
+	font-family:'Noto Serif', serif;
+}
+
+.content__images .forma .border .form .btn{
+	display: inline-block;
+	padding: 0.9375rem 1.25rem;
+	border-radius: 0.875rem;
+	background-image: linear-gradient( to right,rgba(10,183,153,1) 0%,rgba(7,227,157,1) 50%,rgba(10,183,153,1) 100%);
+	background-size: 200% auto;
+	box-shadow: 0 0.0625rem 0.75rem 0 rgba(203, 206, 212, 0.486);
+	transition: .8s;
+}
+	
+.content__images .forma .border .form .btn:hover {
+	background-position: right center;
+} 
+
+/*logo__container*/
+
+.logo__container{
+	width: 100%;
+	clear: both;
+}
+
+.logo__container .logos{
+	width: 100%;
+	margin: 0 0 0 0;
+} 
+
+.logo__container .logos h2{
+	font-size: 1.875rem;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 1.875rem;
+}
+
+.logo__container .logos .logo{
+	display: inline-block;
+	padding: 0 12% 0 0;
+	max-width: 23.75rem;
+	height: 13.75rem ;
+	text-align: center;
+	vertical-align: top;
+}
+
+.logo__container .logos p{
+	max-width: 11.188rem;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.logo__container .logos :last-child {
+	padding-right: 0rem;
+}
+
+/*footer*/
+
+.footer{
+	position: absolute;
+	width: 100%;
+	bottom: -9.375rem;
+	vertical-align: bottom;
+}
+
+.footer img {
+	max-width: 18rem;
+	height: 7.375rem;
+	float: left;
+	margin-bottom: 0;
+}
+
+.footer .footer__text{
+	display: inline-block;
+	max-width: 71.25rem;
+	margin: 0 2.5rem 0 5rem;
+}
+
+.footer .footer__text p{
+	font-size: 1rem;
+	color: #fff;
+	margin: 3.438rem 1.25rem 0 1.563rem ;
+}
+
+.footer .footer__text .rostov{
+	float: right;
+	font-size: 1.5rem;
+	color: #fff;
+	margin: -2.5rem -21.563rem 0 0;
+	max-width: 12.5rem;
+}
+
+.footer .footer__text .footer__tel{
+	float: right;
+	font-size: 1.875rem;
+	margin-bottom: 2%;
+	color: #fff;
+	margin: 0 -21.563rem 0 0;
+}
