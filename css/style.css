@@ -175,10 +175,17 @@ html,body{
 	font-style: italic;
 }
 
+.content__windows .wrapper__windows .windows1{
+	display: inline-block;
+}
+.content__windows .wrapper__windows .windows2{
+	display: inline-block;
+}
+
 .content__windows .wrapper__windows .windows1 .window__text{
 	display: inline-block;
 	background-color: #fff;
-	min-width: 80%;
+	min-width: 13.75rem;
 	height: 8.4375rem;
 	margin: 0 1% 3% 0;
 	font-size: 1rem;
