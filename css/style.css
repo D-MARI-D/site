@@ -30,7 +30,7 @@ html,body{
 /*wrapper*/
 
 .wrapper .wrapper__images1{
-	background: url(../images/Дизайн-сайта-ВАША-ПОМОЩЬ.gif);
+	background: url(../images/Dizainvashapomos.gif);
  	background-repeat: no-repeat;
 	width: 100%;
 	top: 0rem;
@@ -38,7 +38,7 @@ html,body{
 }
 
 .wrapper .wrapper__images2{
-	background: url(../images/Подвал-текстура.gif);
+	background: url(../images/Pofdval.gif);
 	background-repeat: no-repeat;
 	height: 10rem;
 	width: 100%;
