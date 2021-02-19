@@ -112,13 +112,14 @@ html,body{
 	color: #fff;
 	text-decoration: none;
 	outline: none;
-	font-size: 1.5rem;
-	font-weight: 400;
+	font-size: 1.25rem;
+	font-weight: 600;
+	letter-spacing: 1px;
 }
 
 .main__content .content__button a{
 	display: inline-block;
-	padding: 1.25rem 1.875rem;
+	padding: 1.563rem 2.188rem;
 	margin: 0 0 2% 0;
 	border-radius: 0.875rem;
 	background-image: linear-gradient( to right,rgba(10,183,153,1) 0%,rgba(7,227,157,1) 50%,rgba(10,183,153,1) 100%);
@@ -134,11 +135,12 @@ html,body{
 .main__content .content__text {
 	display: block;
 	font-size: 0.875rem;
-	color: #fff;
+	color: #d5dbce;
 	width: 40%;
 	padding: 0 0 4% 0;
 	text-transform: uppercase;
 	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
+	letter-spacing: -0.3px;
 }
 
 /*content__windows*/
@@ -150,13 +152,14 @@ html,body{
 .content__windows .content__text2{
 	font-size: 2.375rem;
 	color: #fff;
-	padding: 0 0 2% 2%;
+	padding: 0 0 2% 1%;
 	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
 }
 
 .content__windows .wrapper__windows{
 	display: inline-block;
-	padding: 0 0 0 2%;
+	width: 100%;
+	padding: 0 0 0 1%;
 }
 
 .content__windows .wrapper__windows img{
@@ -166,7 +169,7 @@ html,body{
 
 .content__windows .wrapper__windows p{
 	display: inline-block;
-	margin: 2rem 0.3125rem 0 -0.1875rem;
+	margin: 2rem 0.3125rem 0 -0.313rem;
 	width: 9.375rem;
 	color: #000;
 	font-weight: 400;
@@ -177,17 +180,19 @@ html,body{
 
 .content__windows .wrapper__windows .windows1{
 	display: inline-block;
+	width: 100%;
 }
 .content__windows .wrapper__windows .windows2{
 	display: inline-block;
+	width: 100%;
 }
 
 .content__windows .wrapper__windows .windows1 .window__text{
-	display: inline-block;
+	float: left;
 	background-color: #fff;
 	min-width: 13.75rem;
-	height: 8.4375rem;
-	margin: 0 1% 3% 0;
+	height: 8.75rem;
+	margin: 0 2% 3% 0;
 	font-size: 1rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
@@ -197,11 +202,11 @@ html,body{
 }
 
 .content__windows .wrapper__windows .windows2 .window__text{
-	display: inline-block;
+	float: left;
 	background-color:  #fff;
 	min-width: 13.75rem;
-	height: 8.4375rem;
-	margin: 0 1% 6% 0;
+	height: 8.75rem;
+	margin: 0 2% 6% 0;
 	font-size: 1rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
@@ -422,14 +427,14 @@ html,body{
 
 .footer .footer__text p{
 	font-size: 1rem;
-	color: #fff;
+	color: #dee4d5;
 	margin: 3.438rem 1.25rem 0 1.563rem ;
 }
 
 .footer .footer__text .rostov{
 	float: right;
 	font-size: 1.5rem;
-	color: #fff;
+	color: #dee4d5;
 	margin: -2.5rem -21.563rem 0 0;
 	max-width: 12.5rem;
 }
@@ -438,6 +443,6 @@ html,body{
 	float: right;
 	font-size: 1.875rem;
 	margin-bottom: 2%;
-	color: #fff;
+	color: #dee4d5;
 	margin: 0 -21.563rem 0 0;
 }
