@@ -192,7 +192,7 @@ html,body{
 	padding: 0 0.625rem 0 0;
 	font-size: 0.875rem;
 	border-radius: 0.5rem;
-	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
+	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.205);
 	box-sizing: border-box;
 	vertical-align: bottom;
 	font-family: 'Noto Serif', serif;
@@ -207,7 +207,7 @@ html,body{
 	padding: 0.625rem 0.813rem 0 0;
 	font-size: 0.875rem;
 	border-radius: 0.5rem;
-	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
+	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.205);
 	box-sizing: border-box;
 	vertical-align: bottom;
 	font-family: 'Noto Serif', serif;
