@@ -6,17 +6,6 @@
 	box-sizing: border-box;
 }
 
-@media (min-width: 1024px) and (max-width: 1240px) {
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-}
-@media (min-width: 640px) and (max-width: 768px) {
-}
-@media (min-width: 480px) and (max-width: 640px) {
-}
-@media (min-width: 320px) and (max-width: 480px) {
-}
-
 /*body*/
 
 html,body{
@@ -74,7 +63,7 @@ html,body{
 	display: block;
 	padding: 5% 0 0 0;
 	font-size: 1.5rem;
-	color: #dee4d5;
+	color: #fff;
 	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
 }
 
@@ -86,6 +75,7 @@ html,body{
 .header .header__text .header__tel{
 	float: right;
 	font-size: 1.875rem;
+	color:#dee4d5;
 }
 
 /*content*/
@@ -152,7 +142,7 @@ html,body{
 .content__windows .content__text2{
 	font-size: 2.375rem;
 	color: #fff;
-	padding: 0 0 2% 1%;
+	padding: 0 0 2% 0;
 	font-family:'Noto Serif', serif, 'Roboto Slab', serif;
 }
 
@@ -164,15 +154,16 @@ html,body{
 
 .content__windows .wrapper__windows img{
 	max-width: 6.5625rem;
-	margin: 1.5625rem 0 0 -1.25rem;
+	margin: 0.938rem 0 0 -1.25rem;
 }
 
 .content__windows .wrapper__windows p{
 	display: inline-block;
-	margin: 2rem 0.3125rem 0 -0.313rem;
-	width: 9.375rem;
+	margin: 1.75rem 0 0 0;
+	width: 7.813rem;
+	max-height: 5.625rem;
 	color: #000;
-	font-weight: 400;
+	font-weight: 500;
 	text-align: left;
 	vertical-align: top;
 	font-style: italic;
@@ -187,13 +178,19 @@ html,body{
 	width: 100%;
 }
 
+.content__windows .wrapper__windows .windows1 p{
+	width: 7.813rem;
+	max-height: 5.625rem;
+}
+
 .content__windows .wrapper__windows .windows1 .window__text{
 	float: left;
 	background-color: #fff;
-	min-width: 13.75rem;
-	height: 8.75rem;
+	min-width: 13.438rem;
+	height: 8.125rem;
 	margin: 0 2% 3% 0;
-	font-size: 1rem;
+	padding: 0 0.625rem 0 0;
+	font-size: 0.875rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
 	box-sizing: border-box;
@@ -204,10 +201,11 @@ html,body{
 .content__windows .wrapper__windows .windows2 .window__text{
 	float: left;
 	background-color:  #fff;
-	min-width: 13.75rem;
-	height: 8.75rem;
+	min-width: 13.438rem;
+	height: 8.125rem;
 	margin: 0 2% 6% 0;
-	font-size: 1rem;
+	padding: 0.625rem 0.813rem 0 0;
+	font-size: 0.875rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.315);
 	box-sizing: border-box;
@@ -231,7 +229,8 @@ html,body{
 
 .content__images .numbers p{
 	max-width: 60% ;
-	font-size: 1.25rem;
+	font-size: 1rem;
+	font-weight: 500;
 	margin: 0 0 0 7%;
 	font-style: italic;
 }
@@ -247,7 +246,7 @@ html,body{
 
 .content__images .number{
 	float: left;
-	margin: 0 11% 10% 0;
+	margin: 0 11% 10% -1%;
 }
 .content__images .number .num{
 	margin-top: -0.313rem;
@@ -278,7 +277,7 @@ html,body{
 	position: relative;
 	float: right;
 	display: block;
-	margin-top: -22%;
+	margin: -22% 0 1% 0;
 	right: 0;
 	max-width: 22.5rem;
 	height: 30rem;
@@ -371,6 +370,7 @@ html,body{
 .logo__container{
 	width: 100%;
 	clear: both;
+	margin-bottom: 1%;
 }
 
 .logo__container .logos{
@@ -379,9 +379,9 @@ html,body{
 } 
 
 .logo__container .logos h2{
-	font-size: 1.875rem;
+	font-size: 1.75rem;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 500;
 	margin-bottom: 1.875rem;
 }
 
@@ -396,7 +396,8 @@ html,body{
 
 .logo__container .logos p{
 	max-width: 11.188rem;
-	font-size: 1rem;
+	font-size: 0.875rem;
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -428,14 +429,14 @@ html,body{
 
 .footer .footer__text p{
 	font-size: 1rem;
-	color: #dee4d5;
+	color: #fff;
 	margin: 3.438rem 1.25rem 0 1.563rem ;
 }
 
 .footer .footer__text .rostov{
 	float: right;
 	font-size: 1.5rem;
-	color: #dee4d5;
+	color: #fff;
 	margin: -2.5rem -21.563rem 0 0;
 	max-width: 12.5rem;
 }
@@ -444,6 +445,6 @@ html,body{
 	float: right;
 	font-size: 1.875rem;
 	margin-bottom: 2%;
-	color: #dee4d5;
+	color: #fff;
 	margin: 0 -21.563rem 0 0;
 }
