@@ -460,7 +460,7 @@ html,body{
 
 /*footer*/
 
-.footer{
+.wrapper__images2 .footer{
 	position: relative;
  	max-width: 71.25rem;
 	height: 100% ;
@@ -469,7 +469,7 @@ html,body{
 	z-index: 1;
 }
 
-.footer img{
+.wrapper__images2 .footer img{
 	float: left;
 	display: block;
 	margin: 3% 0 0 0;
@@ -477,7 +477,7 @@ html,body{
 	max-height: 7.5rem;
 }
 
-.footer .footer__text{
+.wrapper__images2 .footer .footer__text{
 	float: right;
 	width: 70%;
 	height: 100%;
@@ -485,26 +485,26 @@ html,body{
 	top: 0;
 }
 
-.footer .footer__text p{
+.wrapper__images2 .footer .footer__text p{
 	float: left;
 	font-size: 1.063rem;
 	color: #fff;
 	margin: 5.25rem 0 0 2.375rem;
 }
 
-.footer .footer__text span{
+.wrapper__images2 .footer .footer__text span{
 	display: block;
 	text-align: right;
 	font-size: 1.25rem;
 }
 
-.footer .footer__text .mail{
+.wrapper__images2 .footer .footer__text .mail{
 	float: right;
 	color: #fff;
 	margin: 4.375rem 0 0 0;
 }
 
-.footer .footer__text .footer__tel{
+.wrapper__images2 .footer .footer__text .footer__tel{
 	float: right;
 	font-size: 1.75rem;
 	color: #fff;
