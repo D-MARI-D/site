@@ -2,14 +2,12 @@
 <html lang="ru">
 
 <head>
-    <title>ваша помощь</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
+    <title>ваша помощь</title>
 </head>
 
 <body>
@@ -19,7 +17,7 @@
                 <header class="header">
                     <img class="header__images" src="images/Logjvashapomosh.png" alt="">
                     <div class="header__text">
-                        <span>г. Ростов</span>
+                        <span>bez-brokerov@yandex.ru</span>
                         <span class="header__tel">+7 (499) 994 - 48 - 24</span>
                     </div>
                 </header>
@@ -27,7 +25,7 @@
                     <div class="main__content">
                         <h1>ВЕРНЕМ ДЕНЬГИ У БРОКЕРА</h1>
                         <div class="content__button">
-                            <a href="#">УЗНАТЬ СТОИМОСТЬ</a>
+                            <a href="#">Узнать стоимость</a>
                         </div>
                         <div class="content__text">
                             <p>Есть 3 законных метода, как вернуть свои деньги самостоятельно с гарантией по законам
@@ -87,15 +85,19 @@
                         </div>
                         <div class="forma">
                             <div class="border">
-                                <form class="form" action="#">
+                                <form class="form" name="feedback" method="POST" action="#">
                                     <h3>Бесплатная консультация</h3>
                                     <p>Как вернуть средства законным путём сейчас?</p>
-                                    <input type="text" placeholder="Ваше имя">
-                                    <input type="text" placeholder="Сумма ущерба">
-                                    <span>до 100.000 руб от 100.000</span>
-                                    <span class="amounts">до 300.000 руб свыше 300.000</span>
-                                    <input type="tel" placeholder="Ваш телефон">
-                                    <p><input class="btn" type="submit" value="ПОЛУЧИТЬ ПОМОЩЬ"></p>
+                                    <input name="name" type="text" placeholder="Ваше имя" required="required"
+                                        autocomplete="off" />
+                                    <select name="sum" required="required">
+                                        <option value="0">Сумма ущерба</option>
+                                        <option value="1">до 100.000 руб от 100.000</option>
+                                        <option value="2">до 300.000 руб свыше 300.000</option>
+                                    </select>
+                                    <input name="tel" type="tel" placeholder="Ваш телефон" required="required"
+                                        autocomplete="off" />
+                                    <p><input class="btn" name="submit_btn" type="submit" value="ПОЛУЧИТЬ ПОМОЩЬ" /></p>
                                 </form>
                             </div>
                         </div>
@@ -122,16 +124,16 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="wrapper__images2">
                 <div class="footer">
                     <img class="footer__images" src="images/logomalenkoe.png" alt="">
                     <div class="footer__text">
                         <p>ООО «НЭС» ИНН: 6455071133 | ОГРН: 1186451022449</p>
-                        <span class="rostov">г. Ростов</span>
+                        <span class="mail">bez-brokerov@yandex.ru</span>
                         <span class="footer__tel">+7 (499) 994 - 48 - 24</span>
                     </div>
                 </div>
-            </div>
-            <div class="wrapper__images2">
             </div>
         </div>
     </div>
