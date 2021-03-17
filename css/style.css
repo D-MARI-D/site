@@ -475,7 +475,6 @@ font-size: 1px;}
 .content__images .cards{
 	float: left;
 	width: 90%;
-	overflow: hidden;
 }
 
 .content__images .cards .card{
