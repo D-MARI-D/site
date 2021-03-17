@@ -116,6 +116,7 @@ font-size: 1px;}
 	}
 	header .header__images {
 		max-width: 340px;
+		margin: -5rem 0 0 -40rem;
 	}
 }
 	
@@ -233,7 +234,7 @@ font-size: 1px;}
 	float: left;
 	display: block;
 	min-width: 370rem;
-	margin: -5rem 0 0 -30rem;
+	margin: -5rem 0 0 -40rem;
 }
 
 .header .header__text{
