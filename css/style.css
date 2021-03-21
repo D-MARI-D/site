@@ -1167,7 +1167,7 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 .wrapper__images2 .footer .footer__images{
 	float: left;
 	display: block;
-	margin: 15rem 0 0 0;
+	margin: 10rem 0 0 0;
 	max-width: 100%;
 	height: 110rem;
 }
