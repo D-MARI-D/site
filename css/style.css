@@ -367,11 +367,11 @@ font-size: 1px;}
 	}
 	.content .content__windows .wrapper__windows{
 		width: 100%;
-		padding: 0 0 0 18%;
+		padding: 0 0 0 20%;
 		margin: 0 auto;
 	}
 	.content .content__windows .wrapper__windows .windows1 p{	
-		margin-top: 40rem;
+		margin-top: 30rem;
 		font-size: 20rem;
 	}
 	.content .content__images .numbers p{
@@ -423,9 +423,8 @@ font-size: 1px;}
 	}
 	body .wrapper__images2 .footer .footer__text p{
 		position: absolute;
-		float: right;
 		font-size: 24rem;
-		margin: 130rem 0 0 400rem;
+		margin: 130rem 0 0 410rem;
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
 		font-size: 18px;
