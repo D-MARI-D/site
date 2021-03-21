@@ -731,6 +731,11 @@ font-size: 1px;}
 		margin: 0 auto;
 		text-align: center;
 	}
+	body .wrapper .wrapper__images1{
+		background: url(../images/Dizainvashapomos.gif) no-repeat;
+		width: 100%;
+		top: 0px;
+	}
 	header .header__images {
 		max-width: 260px;
 	}
