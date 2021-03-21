@@ -68,12 +68,36 @@ font-size: 1px;}
 		width: 70%;
 	}
 	header .header__images {
-		max-width: 340px;
+		width: 480rem;
+	}
+	header .header__text{
+		padding-top: 10rem;
+	}
+	header .header__text span{
+		font-size: 26rem;
+	}
+	body .wrapper .container header .header__text .header__tel{
+		font-size: 36px;
 	}
 	.content .main__content h1{
 		width: 85%;
 		font-size: 95rem;
 		margin-bottom: 30px;
+	}
+	.content .main__content .content__text{
+		width: 50%;
+		font-size: 18rem;
+	}
+	.content .content__windows .content__text2{
+		margin-top: -15rem;
+		font-size: 42rem;
+	}
+	.content .content__windows .wrapper__windows .windows1 p{	
+		margin-top: 20rem;
+		font-size: 16rem;
+	}
+	.content .content__images .numbers p{
+		font-size: 22rem;
 	}
 	.content .content__images .numbers .number .num{
 		margin: -5rem 0 0 -35rem;
@@ -82,8 +106,17 @@ font-size: 1px;}
 		margin: -55% 0 0 0;
 		text-align: center;
 	}
+	.content .content__images .forma .border form h3{
+		font-size: 20rem;
+	}
+	.content .content__images .forma .border form p{
+		font-size: 18rem;
+	}
 	.content .logo__container .logos .logo{
 		margin-right: 85rem;
+		margin-bottom: 120rem;
+	}.content .logo__container .logos .logo p{
+		font-size: 16rem;
 	}
 	.content .logo__container .logos :last-child {
 		padding-right: 0rem;
@@ -125,16 +158,33 @@ font-size: 1px;}
 		width: 80%;
 	}
 	header .header__images {
-		max-width: 340px;
+		width: 430rem;
+	}
+	header .header__text span{
+		font-size: 24rem;
+	}
+	body .wrapper .container header .header__text .header__tel{
+		font-size: 34px;
 	}
 	.content .main__content h1{
 		width: 85%;
 		font-size: 95rem;
 		margin-bottom: 30px;
 	}
+	.content .main__content .content__text{
+		width: 60%;
+		font-size: 18rem;
+	}
 	.content .content__windows .wrapper__windows{
 		width: 90%;
 		margin: 0 auto;
+	}
+	.content .content__windows .wrapper__windows .windows1 p{	
+		margin-top: 20rem;
+		font-size: 16rem;
+	}
+	.content .content__images .numbers p{
+		font-size: 20rem;
 	}
 	.content .content__images .numbers .number .num{
 		margin: -5rem 0 0 -30rem;
@@ -142,12 +192,22 @@ font-size: 1px;}
 	.content .content__images .cards{
 		margin: 0 0 130rem -30rem;
 	}
-	body .wrapper .container .content .content__images .forma{
+	.content .content__images .forma{
 		margin: -52% 5% 0 0;
 		text-align: center;
 	}
+	.content .content__images .forma .border form h3{
+		font-size: 20rem;
+	}
+	.content .content__images .forma .border form p{
+		font-size: 18rem;
+	}
 	.content .logo__container .logos .logo{
 		margin-right: 80rem;
+		margin-bottom: 100rem;
+	}
+	.content .logo__container .logos .logo p{
+		font-size: 16rem;
 	}
 	.content .logo__container .logos :last-child {
 		padding-right: 0rem;
@@ -176,11 +236,11 @@ font-size: 1px;}
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
 		font-size: 26px;
-		margin: -75rem -125rem 0 0;
+		margin: -105rem -125rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
 		font-size: 22px;
-		margin: -105rem -125rem 0 0;
+		margin: -75rem -125rem 0 0;
 	}
 }
 
@@ -189,16 +249,36 @@ font-size: 1px;}
 		width: 80%;
 	}
 	header .header__images {
-		max-width: 340px;
+		width: 530rem;
+	}
+	header .header__text{
+		padding-top: 20rem;
+	}
+	header .header__text span{
+		font-size: 30rem;
+	}
+	body .wrapper .container header .header__text .header__tel{
+		font-size: 34px;
 	}
 	.content .main__content h1{
 		width: 90%;
 		font-size: 95rem;
 		margin-bottom: 30px;
 	}
+	.content .main__content .content__text{
+		width: 80%;
+		font-size: 24rem;
+	}
 	.content .content__windows .wrapper__windows{
 		width: 90%;
 		margin: 0 auto;
+	}
+	.content .content__windows .wrapper__windows .windows1 p{	
+		margin-top: 15rem;
+		font-size: 20rem;
+	}
+	.content .content__images .numbers p{
+		font-size: 28rem;
 	}
 	.content .content__images .numbers .number .num{
 		margin: -5rem 0 0 -30rem;
@@ -206,12 +286,25 @@ font-size: 1px;}
 	.content .content__images .cards{
 		margin: 0 0 180rem -20rem;
 	}
-	body .wrapper .container .content .content__images .forma{
+	.content .content__images .forma{
 		margin: -58% 8% 0 0;
 		text-align: center;
 	}
+	.content .content__images .forma .border form h3{
+		font-size: 26rem;
+	}
+	.content .content__images .forma .border form p{
+		font-size: 24rem;
+	}
 	.content .logo__container .logos .logo{
 		margin-right: 75rem;
+		margin-bottom: 100rem;
+	}
+	.content .logo__container .logos h2{
+		font-size: 32rem;
+	}
+	.content .logo__container .logos .logo p{
+		font-size: 16rem;
 	}
 	.content .logo__container .logos :last-child {
 		padding-right: 0rem;
@@ -240,11 +333,11 @@ font-size: 1px;}
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
 		font-size: 26px;
-		margin: -75rem -125rem 0 0;
+		margin: -105rem -125rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
 		font-size: 22px;
-		margin: -105rem -125rem 0 0;
+		margin: -75rem -125rem 0 0;
 	}
 }
 
@@ -255,7 +348,7 @@ font-size: 1px;}
 		text-align: center;
 	}
 	header .header__text span{
-		font-size: 18px;
+		font-size: 30rem;
 	}
 	header .header__images {
 		max-width: 340px;
@@ -267,30 +360,42 @@ font-size: 1px;}
 		margin-bottom: 30px;
 	}
 	.content .main__content .content__text{
+		width: 80%;
 		margin: 0 auto;
 		text-align: center;
+		font-size: 24rem;
 	}
 	.content .content__windows .wrapper__windows{
 		width: 100%;
 		padding: 0 0 0 18%;
 		margin: 0 auto;
 	}
-	body .wrapper .container .content .content__images .numbers p{
+	.content .content__windows .wrapper__windows .windows1 p{	
+		margin-top: 30rem;
+		font-size: 26rem;
+	}
+	.content .content__images .numbers p{
 		font-size: 28rem;
 	}
-	body .wrapper .container .content .content__images .numbers .number .num{
+	.content .content__images .numbers .number .num{
 		margin: -5rem 0 0 -56rem;
 	}
-	body .wrapper .container .content .content__images .cards{
+	.content .content__images .cards{
 		width: 100%;
 		margin-bottom: 200rem;
 	}
-	body .wrapper .container .content .content__images .forma{
+	.content .content__images .forma{
 		margin:-65% 5% 0 0;
 		text-align: center;
 	}
 	.content .logo__container .logos .logo{
 		margin-right: 75rem;
+	}
+	.content .logo__container .logos h2{
+		font-size: 32rem;
+	}
+	.content .logo__container .logos .logo p{
+		font-size: 16rem;
 	}
 	.content .logo__container .logos :last-child {
 		padding-right: 0rem;
@@ -307,7 +412,7 @@ font-size: 1px;}
 		text-align: center;
 	}
 	body .wrapper__images2 .footer .footer__images{
-		margin: 20rem 0 0 0;
+		margin: 15rem 0 0 0;
 		height: 150rem;
 	}
 	body .wrapper__images2 .footer .footer__text{
@@ -316,24 +421,19 @@ font-size: 1px;}
 		margin: 0 20px 0 10px;
 		text-align: center;
 	}
-	body .wrapper__images2 .footer .footer__text{
-		width: 100%;
-	}
 	body .wrapper__images2 .footer .footer__text p{
 		position: absolute;
-		float: none;
+		float: right;
 		font-size: 24rem;
-		margin: 130rem 0 0 430rem;
+		margin: 130rem 0 0 400rem;
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
-		display: inline-block;
 		font-size: 18px;
-		margin: 80rem -230rem 0 0;
+		margin: 50rem -240rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
-		display: inline-block;
 		font-size: 16px;
-		margin: 50rem 30rem 0 0;
+		margin: 80rem 70rem 0 0;
 	}
 }	
 
@@ -343,11 +443,17 @@ font-size: 1px;}
 		margin: 0 auto;
 		text-align: center;
 	}
-	header .header__text span{
-		font-size: 18px;
-	}
 	header .header__images {
 		max-width: 340px;
+	}
+	header .header__text{
+		padding-top: 20rem;
+	}
+	header .header__text span{
+		font-size: 30rem;
+	}
+	body .wrapper .container header .header__text .header__tel{
+		font-size: 30px;
 	}
 	.content .main__content h1{
 		width: 100%;
@@ -356,7 +462,9 @@ font-size: 1px;}
 		margin-bottom: 30px;
 	}
 	.content .main__content .content__text{
+		width: 80%;
 		margin: 0 auto;
+		font-size: 24rem;
 		text-align: center;
 	}
 	.content .content__windows .wrapper__windows{
@@ -364,21 +472,31 @@ font-size: 1px;}
 		padding: 0 0 0 12%;
 		margin: 0 auto;
 	}
-	body .wrapper .container .content .content__images .numbers p{
+	.content .content__windows .wrapper__windows .windows1 p{	
+		margin-top: 30rem;
+		font-size: 24rem;
+	}
+	.content .content__images .numbers p{
 		font-size: 28rem;
 	}
-	body .wrapper .container .content .content__images .numbers .number .num{
+	.content .content__images .numbers .number .num{
 		margin: -5rem 0 0 -56rem;
 	}
-	body .wrapper .container .content .content__images .cards{
+	.content .content__images .cards{
 		width: 100%;
 	}
-	body .wrapper .container .content .content__images .forma{
+	.content .content__images .forma{
 		margin:-115% -3% 0 0;
 		text-align: center;
 	}
+	.content .logo__container .logos h2{
+		font-size: 32rem;
+	}
 	.content .logo__container .logos .logo{
 		margin-right: 75rem;
+	}
+	.content .logo__container .logos .logo p{
+		font-size: 16rem;
 	}
 	.content .logo__container .logos :last-child {
 		padding-right: 0rem;
@@ -404,9 +522,6 @@ font-size: 1px;}
 		margin: 0 20px 0 10px;
 		text-align: center;
 	}
-	body .wrapper__images2 .footer .footer__text{
-		width: 100%;
-	}
 	body .wrapper__images2 .footer .footer__text p{
 		position: absolute;
 		float: none;
@@ -414,22 +529,20 @@ font-size: 1px;}
 		margin: 170rem 0 0 390rem;
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
-		display: inline-block;
 		font-size: 18px;
-		margin: 15rem 70rem 0 0;
+		margin: -70rem 70rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
-		display: inline-block;
 		font-size: 16px;
-		margin: 55rem 70rem 0 0;
+		margin: 100rem 70rem 0 0;
 	}
 }	
 
 @media screen and (min-width: 480px) and (max-width: 767px){
-	.content__text p {
+	.content .main__content .content__text p {
 		display:none;
 	}
-	.logo__container {
+	.content .logo__container {
 		display:none;
 	}
 	body .wrapper .container{
@@ -437,7 +550,6 @@ font-size: 1px;}
 		margin: 0 auto;
 		text-align: center;
 	}
-	
 	header .header__text span{
 		font-size: 18px;
 	}
@@ -503,20 +615,19 @@ font-size: 1px;}
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
 		font-size: 16px;
-		margin: -65rem -120rem 0 0;
+		margin: -120rem -120rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
 		font-size: 14px;
-		margin: -130rem -120rem 0 0;
+		margin: -80rem -120rem 0 0;
 	}
-	
 }
 
 @media screen and (min-width: 360px) and (max-width: 479px){
-	.content__text p {
+	.content .main__content .content__text p {
 		display:none;
 	}
-	.logo__container {
+	.content .logo__container {
 		display:none;
 	}
 	body .wrapper .container{
@@ -524,20 +635,25 @@ font-size: 1px;}
 		margin: 0 auto;
 		text-align: center;
 	}
-	header .header__text span{
-		font-size: 14px;
-	}
-	header .header__text .header__tel{
-		font-size: 16px;
-	}
 	header .header__images {
 		max-width: 260px;
+		padding-left: 100rem;
+	}
+	header .header__text{
+		text-align: center;
+		padding-right: 160rem;
+	}
+	header .header__text span{
+		font-size: 16px;
+	}
+	body .wrapper .container header .header__text .header__tel{
+		font-size: 20px;
 	}
 	.content .main__content h1{
-		width: 95%;
-		font-size: 100rem;
+		width: 100%;
+		font-size: 110rem;
 		text-align: center;
-		margin: 30px 0 30px 10px;
+		margin: 30px 0 30px 0;
 	}
 	.content .main__content .content__button a{
 		font-size: 16px;
@@ -548,7 +664,7 @@ font-size: 1px;}
 		text-align: center;
 	}
 	.content .content__windows .wrapper__windows .windows1{
-		margin-left: 5%;
+		margin-left: 3%;
 	}
 	.content .content__images .numbers{
 		padding: 0 10% 0 10%;
@@ -582,37 +698,33 @@ font-size: 1px;}
 	}
 	body .wrapper__images2 .footer .footer__images{
 		float: none;
-		margin: 10rem 0 0 80rem;
-		height: 220rem;
+		margin: 8rem 0 0 120rem;
+		height: 215rem;
 	}
 	body .wrapper__images2 .footer .footer__text{
-		width: 80%;
+		width: 100%;
 	}
 	body .wrapper__images2 .footer .footer__text p{
 		position: absolute;
 		float: none;
 		font-size: 36rem;
-		margin: 158rem 0 0 -250rem;
+		margin: 158rem 0 0 -100rem;
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
-		display: inline-block;
-		float: none;
 		font-size: 16px;
-		margin: 10rem 0 0 -20rem;
+		margin: -135rem 80rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
-		display: inline-block;
-		float: none;
 		font-size: 14px;
-		margin: 0 0 0 -20rem;
+		margin: 70rem 80rem 0 0;
 	}
 }
 
 @media screen and (max-width: 359px){
-	.content__text p {
+	.content .main__content .content__text p {
 		display:none;
 	}
-	.logo__container {
+	.content .logo__container {
 		display:none;
 	}
 	body .wrapper .container{
@@ -620,45 +732,50 @@ font-size: 1px;}
 		margin: 0 auto;
 		text-align: center;
 	}
-	header .header__text span{
-		font-size: 14px;
-	}
-	header .header__text .header__tel{
-		font-size: 16px;
-	}
 	header .header__images {
 		max-width: 260px;
+	}
+	header .header__text{
+		text-align: center;
+		padding-right: 120rem;
+	}
+	header .header__text span{
+		font-size: 16px;
+	}
+	body .wrapper .container header .header__text .header__tel{
+		font-size: 20px;
+	}
+	.content .main__content h1{
+		width: 100%;
+		font-size: 110rem;
+		text-align: center;
+		margin-top: 80rem;
+		margin-bottom: 30px;
 	}
 	.content .main__content .content__button a{
 		font-size: 14px;
 		padding: 25px 50px;
 	}
-	.content .main__content h1{
-		width: 96%;
-		font-size: 100rem;
-		text-align: center;
-		margin-bottom: 30px;
-	}
 	.content .content__windows .wrapper__windows{
 		width: 90%;
 		text-align: center;
 	}
-	body .wrapper .container .content .content__images .numbers{
+	.content .content__images .numbers{
 		padding: 0 10% 0 10%;
 		margin: 0 auto;
 	}
-	body .wrapper .container .content .content__images .numbers p{
+	.content .content__images .numbers p{
 		font-size: 45rem;
 		margin-left: 40px;
 	}
-	body .wrapper .container .content .content__images .numbers .number{
+	.content .content__images .numbers .number{
 		margin: 0;
 	}
 	.content .content__images .cards .card{
 		float: none;
 		margin: 0 200rem 50rem -250rem;
 	}
-	body .wrapper .container .content .content__images .forma{
+	.content .content__images .forma{
 		margin:-130% -11% 10% 0;
 		text-align: center;
 		width: 312px;
@@ -669,40 +786,37 @@ font-size: 1px;}
 		position: absolute;
 		bottom: -160px;
 	}
-	.body .wrapper__images2 .footer{
+	body .wrapper__images2 .footer{
 		max-width: 60%;
 	}
 	body .wrapper__images2 .footer .footer__images{
 		float: none;
-		margin: 10rem 0 0 80rem;
+		margin: 10rem 0 0 110rem;
 		height: 220rem;
 	}
 	body .wrapper__images2 .footer .footer__text{
-		width: 90%;
+		width: 100%;
 	}
 	body .wrapper__images2 .footer .footer__text p{
 		position: absolute;
 		float: none;
 		font-size: 44rem;
-		margin: 230rem 0 0 -280rem;
+		margin: 230rem 0 0 -200rem;
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
-		display: inline-block;
-		float: none;
 		font-size: 16px;
-		margin: 10rem 0 0 -30rem;
+		margin: -150rem 40rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
-		display: inline-block;
-		float: none;
 		font-size: 14px;
-		margin: 20rem 0 0 -30rem;
+		margin: 100rem 0 0 -60rem;
 	}
 }
 
 
 
 /*wrapper*/
+
 .wrapper{
 	width: 100%;
 	height: 100%;
@@ -782,11 +896,6 @@ font-size: 1px;}
 	line-height: 115%;
 	margin: 42px 0 30px 0;
 }
-/*
-.main__content .content__button{
-	width: 340px;
-	height: 80px;
-}*/
 
 .main__content .content__button a{
 	color: #fff;
@@ -906,9 +1015,6 @@ font-size: 1px;}
 	font-family: 'Noto Serif', serif;
 }
 
-.content__windows .wrapper__windows .windows1 .window__text.wallet{
-	width: 225px;
-}
 .content__windows .wrapper__windows .windows1 :last-child {
 	margin-right: 0;
 }
@@ -1144,6 +1250,7 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 }
 
 /*footer*/
+
 .wrapper__images2{
 	background: url(../images/Pofdval.gif);
 	background-repeat: no-repeat;
