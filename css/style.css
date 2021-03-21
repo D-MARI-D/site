@@ -272,7 +272,7 @@ font-size: 1px;}
 	}
 	.content .content__windows .wrapper__windows{
 		width: 100%;
-		padding: 0 0 0 16%;
+		padding: 0 0 0 18%;
 		margin: 0 auto;
 	}
 	body .wrapper .container .content .content__images .numbers p{
@@ -286,7 +286,7 @@ font-size: 1px;}
 		margin-bottom: 200rem;
 	}
 	body .wrapper .container .content .content__images .forma{
-		margin:-70% -3% 0 0;
+		margin:-65% 5% 0 0;
 		text-align: center;
 	}
 	.content .logo__container .logos .logo{
@@ -307,8 +307,8 @@ font-size: 1px;}
 		text-align: center;
 	}
 	body .wrapper__images2 .footer .footer__images{
-		margin: 15rem 0 0 0;
-		height: 180rem;
+		margin: 20rem 0 0 0;
+		height: 150rem;
 	}
 	body .wrapper__images2 .footer .footer__text{
 		width: 100%;
@@ -323,17 +323,17 @@ font-size: 1px;}
 		position: absolute;
 		float: none;
 		font-size: 24rem;
-		margin: 160rem 0 0 430rem;
+		margin: 130rem 0 0 430rem;
 	}
 	body .wrapper__images2 .footer .footer__text .footer__tel{
 		display: inline-block;
 		font-size: 18px;
-		margin: 110rem -230rem 0 0;
+		margin: 80rem -230rem 0 0;
 	}
 	body .wrapper__images2 .footer .footer__text .mail{
 		display: inline-block;
 		font-size: 16px;
-		margin: 75rem 30rem 0 0;
+		margin: 50rem 30rem 0 0;
 	}
 }	
 
