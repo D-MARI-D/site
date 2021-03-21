@@ -274,8 +274,8 @@ font-size: 1px;}
 		margin: 0 auto;
 	}
 	.content .content__windows .wrapper__windows .windows1 p{	
-		margin-top: 15rem;
-		font-size: 20rem;
+		margin-top: 30rem;
+		font-size: 16rem;
 	}
 	.content .content__images .numbers p{
 		font-size: 28rem;
@@ -371,8 +371,8 @@ font-size: 1px;}
 		margin: 0 auto;
 	}
 	.content .content__windows .wrapper__windows .windows1 p{	
-		margin-top: 30rem;
-		font-size: 26rem;
+		margin-top: 40rem;
+		font-size: 20rem;
 	}
 	.content .content__images .numbers p{
 		font-size: 28rem;
@@ -474,7 +474,7 @@ font-size: 1px;}
 	}
 	.content .content__windows .wrapper__windows .windows1 p{	
 		margin-top: 30rem;
-		font-size: 24rem;
+		font-size: 20rem;
 	}
 	.content .content__images .numbers p{
 		font-size: 28rem;
@@ -637,11 +637,11 @@ font-size: 1px;}
 	}
 	header .header__images {
 		max-width: 260px;
-		padding-left: 100rem;
+		padding-left: 120rem;
 	}
 	header .header__text{
 		text-align: center;
-		padding-right: 160rem;
+		padding-right: 180rem;
 	}
 	header .header__text span{
 		font-size: 16px;
