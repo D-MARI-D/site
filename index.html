@@ -26,7 +26,7 @@
                         <div class="main__content">
                             <h1>ВЕРНЕМ ДЕНЬГИ У БРОКЕРА</h1>
                             <div class="content__button">
-                                <a href="#form1">УЗНАТЬ СТОИМОСТЬ</a>
+                                <a href="#popup">УЗНАТЬ СТОИМОСТЬ</a>
                             </div>
                             <div class="content__text">
                                 <p>Есть 3 законных метода, как вернуть свои деньги самостоятельно с гарантией по законам
@@ -84,8 +84,7 @@
                             </div>
                             <div class="forma">
                                 <div class="border">
-                                    <form class="form" name="feedback" method="POST" action="directofmy@yandex.ru"
-                                        id="form1">
+                                    <form class="form" name="feedback" method="POST" action="directofmy@yandex.ru">
                                         <h3>Бесплатная консультация</h3>
                                         <p>Как вернуть средства законным путём сейчас?</p>
                                         <input name="name" type="text" placeholder="Ваше имя" required="required"
@@ -128,17 +127,37 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="wrapper__images2">
-        <div class="footer">
-            <img class="footer__images" src="images/logomalenkoe.png" alt="">
-            <div class="footer__text">
-                <p>ООО «НЭС» ИНН: 6455071133 | ОГРН: 1186451022449</p>
-                <span class="mail">bez-brokerov@yandex.ru</span>
-                <span class="footer__tel">+7 (499) 994 - 48 - 24</span>
+        <div class="wrapper__images2">
+            <div class="footer">
+                <img class="footer__images" src="images/logomalenkoe.png" alt="">
+                <div class="footer__text">
+                    <p>ООО «НЭС» ИНН: 6455071133 | ОГРН: 1186451022449</p>
+                    <span class="mail">bez-brokerov@yandex.ru</span>
+                    <span class="footer__tel">+7 (499) 994 - 48 - 24</span>
+                </div>
             </div>
         </div>
-    </div>
+        <div id="popup" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="" class="popup__close">✖</a>
+                    <form class="popup__form" name="feedback" method="POST" action="directofmy@yandex.ru" id="forma">
+                        <h4>Бесплатная консультация</h4>
+                        <p>Как вернуть средства законным путём сейчас?</p>
+                        <input name="name" type="text" placeholder="Ваше имя" required="required" autocomplete="off" />
+                        <select name="sum" required="required">
+                            <option value="1">до 100.000 руб</option>
+                            <option value="2">от 100.000 до 300.000 руб</option>
+                            <option value="3">свыше 300.000</option>
+                        </select>
+                        <input name="tel" type="tel" placeholder="Ваш номер телефон*" required="required"
+                            autocomplete="off" />
+                        <span>Отправляя данную форму, вы даете согласие на обработку Ваших персональных данных.</span>
+                        <p><input class="btn2" name="submit_btn2" type="submit" value="ПОЛУЧИТЬ ПОМОЩЬ" /></p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
