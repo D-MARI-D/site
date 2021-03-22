@@ -535,6 +535,56 @@ font-size: 1px;}
 		font-size: 16px;
 		margin: 100rem 70rem 0 0;
 	}
+	body .popup .popup__body .popup__content{
+		max-width: 660px;
+		height: 760px;
+		padding: 40rem ;
+	}
+	body .popup .popup__body{
+		padding: 0;
+	}
+	body .popup .popup__body .popup__content .popup__close{
+		right: 10px;
+		top: 5px;
+		font-size: 32px;
+	}
+	body .popup .popup__body .popup__content .popup__form h4{
+		font-size: 70rem;
+		margin: 25rem 0 10px 0;
+	}
+	body .popup .popup__body .popup__content .popup__form p{
+		font-size: 42rem;
+		margin: 0 0 20px 0;
+	}
+	body .popup .popup__body .popup__content .popup__form input{
+		font-size: 40rem;
+		height: 130rem;
+		width: 800rem;
+		margin: 0 20rem 40rem 85rem;
+		padding-left: 25px;
+	}
+	body .popup .popup__body .popup__content .popup__form select{
+		font-size: 40rem;
+		height: 130rem;
+		width: 800rem;
+		margin: 0 20rem 40rem 85rem;
+		padding-left: 20px;
+	}
+	body .popup .popup__body .popup__content .popup__form option{
+		font-size: 40rem;
+		margin: 0 0 0 2.1875rem;
+	}
+	body .popup .popup__body .popup__content .popup__form span{
+		font-size: 28rem;
+		margin: 10rem 0 60rem 0;
+		letter-spacing: 1rem;
+	}
+	body .popup .popup__body .popup__content .popup__form .btn2{
+		width: 600rem;
+		height: 130rem;
+		margin: 0 0.1875rem 0 0;
+		font-size: 40rem;
+	}
 }	
 
 @media screen and (min-width: 641px) and (max-width: 767px){
@@ -706,8 +756,8 @@ font-size: 1px;}
 		margin: -80rem -120rem 0 0;
 	}
 	body .popup .popup__body .popup__content{
-		max-width: 330px;
-		height: 490px;
+		max-width: 640px;
+		height: 720px;
 		padding: 40rem ;
 	}
 	body .popup .popup__body{
@@ -716,26 +766,26 @@ font-size: 1px;}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
 		top: 5px;
-		font-size: 22px;
+		font-size: 24px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 100rem;
+		font-size: 76rem;
 		margin: 0 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 60rem;
+		font-size: 48rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
@@ -745,13 +795,13 @@ font-size: 1px;}
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
-		font-size: 42rem;
+		font-size: 34rem;
 		margin: 10rem 0 70rem 0;
 		letter-spacing: 1rem;
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
 		width: 700rem;
-		height: 200rem;
+		height: 160rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 50rem;
 	}
@@ -842,8 +892,8 @@ font-size: 1px;}
 		margin: -80rem -120rem 0 0;
 	}
 	body .popup .popup__body .popup__content{
-		max-width: 330px;
-		height: 490px;
+		max-width: 480px;
+		height: 580px;
 		padding: 40rem ;
 	}
 	body .popup .popup__body{
@@ -851,27 +901,27 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
-		top: 5px;
-		font-size: 22px;
+		top: 3px;
+		font-size: 24px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 100rem;
-		margin: 0 0 10px 0;
+		font-size: 86rem;
+		margin: 50rem 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 60rem;
+		font-size: 50rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
@@ -881,13 +931,13 @@ font-size: 1px;}
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
-		font-size: 42rem;
+		font-size: 40rem;
 		margin: 10rem 0 70rem 0;
 		letter-spacing: 1rem;
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
 		width: 700rem;
-		height: 200rem;
+		height: 180rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 50rem;
 	}
@@ -989,8 +1039,8 @@ font-size: 1px;}
 		margin: 70rem 80rem 0 0;
 	}
 	body .popup .popup__body .popup__content{
-		max-width: 330px;
-		height: 490px;
+		max-width: 390px;
+		height: 505px;
 		padding: 40rem ;
 	}
 	body .popup .popup__body{
@@ -1002,24 +1052,24 @@ font-size: 1px;}
 		font-size: 22px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 100rem;
-		margin: 0 0 10px 0;
+		font-size: 86rem;
+		margin: 60rem 0 10px 0;
 	}
 	
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 60rem;
-		margin: 0 0 20px 0;
+		font-size: 56rem;
+		margin: 0 0 15px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
@@ -1029,13 +1079,13 @@ font-size: 1px;}
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
-		font-size: 42rem;
+		font-size: 39rem;
 		margin: 10rem 0 70rem 0;
 		letter-spacing: 1rem;
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
 		width: 700rem;
-		height: 200rem;
+		height: 180rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 50rem;
 	}
