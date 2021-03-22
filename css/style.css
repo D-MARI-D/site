@@ -340,7 +340,7 @@ font-size: 1px;}
 		margin: -75rem -125rem 0 0;
 	}
 	body .popup .popup__body .popup__content{
-		max-width: 800px;
+		max-width: 810px;
 		height: 850px;
 		padding: 40rem ;
 	}
@@ -348,35 +348,36 @@ font-size: 1px;}
 		padding: 0;
 	}
 	body .popup .popup__body .popup__content .popup__close{
-		right: 10px;
-		top: 5px;
-		font-size: 32px;
+		right: 15px;
+		top: 10px;
+		font-size: 42px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 58rem;
+		font-size: 56rem;
 		margin: 5rem 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 38rem;
+		font-size: 40rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
-		font-size: 40rem;
-		height: 120rem;
-		width: 800rem;
-		margin: 0 20rem 35rem 40rem;
+		font-size: 36rem;
+		height: 110rem;
+		width: 760rem;
+		margin: 0 20rem 35rem 60rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
-		font-size: 40rem;
-		height: 120rem;
-		width: 800rem;
-		margin: 0 20rem 35rem 40rem;
+		font-size: 36rem;
+		height: 110rem;
+		width: 760rem;
+		margin: 0 20rem 35rem 60rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
-		font-size: 40rem;
+	.popup .popup__body .popup__content .popup__form option{
+		font-size: 36rem;
 		margin: 0 0 0 2.1875rem;
+		max-width: 760rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
 		font-size: 26rem;
@@ -385,7 +386,7 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
 		width: 600rem;
-		height: 120rem;
+		height: 110rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 36rem;
 	}
@@ -494,45 +495,45 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
-		top: 5px;
-		font-size: 32px;
+		top: 2px;
+		font-size: 36px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 70rem;
-		margin: 25rem 0 10px 0;
+		font-size: 58rem;
+		margin: 0 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 42rem;
+		font-size: 32rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
-		font-size: 40rem;
-		height: 130rem;
-		width: 800rem;
-		margin: 0 20rem 40rem 85rem;
+		font-size: 36rem;
+		height: 100rem;
+		width: 680rem;
+		margin: 0 20rem 35rem 85rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
-		font-size: 40rem;
-		height: 130rem;
-		width: 800rem;
-		margin: 0 20rem 40rem 85rem;
+		font-size: 36rem;
+		height: 100rem;
+		width: 680rem;
+		margin: 0 20rem 35rem 85rem;
 		padding-left: 20px;
 	}
 	body .popup .popup__body .popup__content .popup__form option{
-		font-size: 40rem;
+		font-size: 36rem;
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
-		font-size: 28rem;
-		margin: 10rem 0 60rem 0;
+		font-size: 22rem;
+		margin: 10rem 0 40rem 0;
 		letter-spacing: 1rem;
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
-		width: 600rem;
-		height: 130rem;
-		margin: 0 0.1875rem 0 0;
-		font-size: 40rem;
+		width: 510rem;
+		height: 100rem;
+		margin: 0 0 0 0;
+		font-size: 26rem;
 	}
 }	
 
@@ -646,14 +647,14 @@ font-size: 1px;}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
 		top: 5px;
-		font-size: 32px;
+		font-size: 40px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 70rem;
+		font-size: 62rem;
 		margin: 25rem 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 42rem;
+		font-size: 36rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
@@ -676,7 +677,7 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__form span{
 		font-size: 28rem;
-		margin: 10rem 0 60rem 0;
+		margin: 10rem 0 50rem 0;
 		letter-spacing: 1rem;
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
@@ -781,7 +782,7 @@ font-size: 1px;}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
 		top: 5px;
-		font-size: 32px;
+		font-size: 40px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
 		font-size: 70rem;
@@ -915,33 +916,33 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
-		top: 5px;
-		font-size: 24px;
+		top: 2px;
+		font-size: 34px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 76rem;
+		font-size: 74rem;
 		margin: 0 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 48rem;
+		font-size: 46rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
-		font-size: 60rem;
+		font-size: 40rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
-		font-size: 60rem;
+		font-size: 40rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
 	body .popup .popup__body .popup__content .popup__form option{
-		font-size: 60rem;
+		font-size: 40rem;
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
@@ -1050,11 +1051,11 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
-		top: 3px;
-		font-size: 24px;
+		top: 2px;
+		font-size: 28px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 80rem;
+		font-size: 76rem;
 		margin: 30rem 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
@@ -1062,21 +1063,21 @@ font-size: 1px;}
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
-		font-size: 60rem;
+		font-size: 50rem;
 		height: 170rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
-		font-size: 60rem;
+		font-size: 50rem;
 		height: 170rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
 	body .popup .popup__body .popup__content .popup__form option{
-		font-size: 60rem;
+		font-size: 50rem;
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
@@ -1185,15 +1186,15 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
-		top: 3px;
-		font-size: 24px;
+		top: 2px;
+		font-size: 28px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 86rem;
+		font-size: 80rem;
 		margin: 50rem 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 50rem;
+		font-size: 48rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
@@ -1215,7 +1216,7 @@ font-size: 1px;}
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
-		font-size: 40rem;
+		font-size: 36rem;
 		margin: 10rem 0 70rem 0;
 		letter-spacing: 1rem;
 	}
@@ -1332,46 +1333,46 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
-		top: 5px;
-		font-size: 22px;
+		top: 2px;
+		font-size: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 86rem;
-		margin: 60rem 0 10px 0;
+		font-size: 80rem;
+		margin: 55rem 0 10px 0;
 	}
 	
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 56rem;
+		font-size: 48rem;
 		margin: 0 0 15px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
-		font-size: 60rem;
+		font-size: 56rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
-		font-size: 60rem;
+		font-size: 56rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
 	body .popup .popup__body .popup__content .popup__form option{
-		font-size: 60rem;
+		font-size: 56rem;
 		margin: 0 0 0 2.1875rem;
 	}
 	body .popup .popup__body .popup__content .popup__form span{
-		font-size: 39rem;
-		margin: 10rem 0 70rem 0;
+		font-size: 36rem;
+		margin: 10rem 0 65rem 0;
 		letter-spacing: 1rem;
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
 		width: 700rem;
 		height: 180rem;
 		margin: 0 0.1875rem 0 0;
-		font-size: 50rem;
+		font-size: 46rem;
 	}
 }
 
@@ -1481,27 +1482,27 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__close{
 		right: 10px;
-		top: 5px;
-		font-size: 22px;
+		top: 2px;
+		font-size: 24px;
 	}
 	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 100rem;
-		margin: 0 0 10px 0;
+		font-size: 80rem;
+		margin: 50rem 0 10px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 60rem;
+		font-size: 58rem;
 		margin: 0 0 20px 0;
 	}
 	body .popup .popup__body .popup__content .popup__form input{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
 	body .popup .popup__body .popup__content .popup__form select{
 		font-size: 60rem;
-		height: 200rem;
+		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
@@ -1517,9 +1518,9 @@ font-size: 1px;}
 	}
 	body .popup .popup__body .popup__content .popup__form .btn2{
 		width: 700rem;
-		height: 200rem;
+		height: 180rem;
 		margin: 0 0.1875rem 0 0;
-		font-size: 50rem;
+		font-size: 48rem;
 	}
 }
 
