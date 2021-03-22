@@ -127,7 +127,7 @@ font-size: 1px;}
 		bottom: -15px;
 	}
 	.body .wrapper__images2 .footer{
-		max-width: 70%;
+		width: 70%;
 	}
 	body .wrapper__images2 .footer .footer__text{
 		width: 100%;
@@ -218,7 +218,7 @@ font-size: 1px;}
 		bottom: -40px;
 	}
 	.body .wrapper__images2 .footer{
-		max-width: 90%;
+		width: 90%;
 	}
 	body .wrapper__images2 .footer .footer__text{
 		width: 100%;
@@ -406,7 +406,7 @@ font-size: 1px;}
 		bottom: -100px;
 	}
 	body .wrapper__images2 .footer{
-		max-width: 90%;
+		width: 90%;
 		padding-top: 20px;
 		margin: 0 auto;
 		text-align: center;
@@ -596,7 +596,7 @@ font-size: 1px;}
 		bottom: -150px;
 	}
 	.body .wrapper__images2 .footer{
-		max-width: 80%;
+		width: 80%;
 		float: none;
 		margin: 0 auto;
 	}
@@ -681,7 +681,7 @@ font-size: 1px;}
 		bottom: -150px;
 	}
 	.body .wrapper__images2 .footer{
-		max-width: 80%;
+		width: 80%;
 		float: none;
 		margin: 0 auto;
 	}
@@ -767,7 +767,7 @@ font-size: 1px;}
 		bottom: -150px;
 	}
 	.body .wrapper__images2 .footer{
-		max-width: 80%;
+		width: 80%;
 		float: none;
 		margin: 0 auto;
 	}
@@ -853,9 +853,9 @@ font-size: 1px;}
 		margin: 0 200rem 50rem -320rem;
 	}
 	body .wrapper .container .content .content__images .forma{
-		margin:-110% -6% 10% 0;
+		margin:-110% -9% 10% 0;
 		text-align: center;
-		width: 330px;
+		width: 342px;
 		height: 450px;
 		padding: 15px 15px;
 	}
@@ -864,7 +864,7 @@ font-size: 1px;}
 		bottom: -160px;
 	}
 	.body .wrapper__images2 .footer{
-		max-width: 60%;
+		width: 60%;
 	}
 	body .wrapper__images2 .footer .footer__images{
 		float: none;
@@ -962,7 +962,7 @@ font-size: 1px;}
 		bottom: -160px;
 	}
 	body .wrapper__images2 .footer{
-		max-width: 60%;
+		width: 60%;
 	}
 	body .wrapper__images2 .footer .footer__images{
 		float: none;
@@ -985,6 +985,58 @@ font-size: 1px;}
 	body .wrapper__images2 .footer .footer__text .mail{
 		font-size: 14px;
 		margin: 100rem 0 0 -60rem;
+	}
+	body .popup .popup__body .popup__content{
+		max-width: 330px;
+		height: 490px;
+		padding: 40rem ;
+	}
+	body .popup .popup__body{
+		padding: 0;
+	}
+	body .popup .popup__body .popup__content .popup__close{
+		right: 10px;
+		top: 5px;
+		font-size: 22px;
+	}
+	body .popup .popup__body .popup__content .popup__form h4{
+		font-size: 100rem;
+		margin: 0 0 10px 0;
+	}
+	
+	body .popup .popup__body .popup__content .popup__form p{
+		font-size: 60rem;
+		margin: 0 0 20px 0;
+	}
+	body .popup .popup__body .popup__content .popup__form input{
+		font-size: 60rem;
+		height: 200rem;
+		width: 1000rem;
+		margin: 0 50rem 60rem 75rem;
+		padding-left: 25px;
+	}
+	body .popup .popup__body .popup__content .popup__form select{
+		font-size: 60rem;
+		height: 200rem;
+		width: 1000rem;
+		margin: 0 50rem 60rem 75rem;
+		padding-left: 20px;
+	}
+	body .popup .popup__body .popup__content .popup__form option{
+		font-size: 60rem;
+		margin: 0 0 0 2.1875rem;
+	}
+	
+	body .popup .popup__body .popup__content .popup__form span{
+		font-size: 42rem;
+		margin: 10rem 0 70rem 0;
+		letter-spacing: 1rem;
+	}
+	body .popup .popup__body .popup__content .popup__form .btn2{
+		width: 700rem;
+		height: 200rem;
+		margin: 0 0.1875rem 0 0;
+		font-size: 50rem;
 	}
 }
 
