@@ -374,7 +374,7 @@ font-size: 1px;}
 		margin: 0 20rem 35rem 60rem;
 		padding-left: 20px;
 	}
-	.popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .popup__form option{
 		font-size: 36rem;
 		margin: 0 0 0 2.1875rem;
 		max-width: 760rem;
@@ -1009,7 +1009,7 @@ font-size: 1px;}
 		margin: 200rem 100rem 0 590rem;
 	}
 	body .wrapper .container .content .content__images .forma{
-		margin:-120% 0 10% 28%;
+		margin:-120% 6% 10% 0;
 		text-align: center;
 	}
 	body .wrapper__images2{
