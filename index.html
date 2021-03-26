@@ -84,20 +84,25 @@
                             </div>
                             <div class="forma">
                                 <div class="border">
-                                    <form class="form" name="feedback" method="POST" action="dubavaya.maria@mail.ru">
+                                    <form class="form" name="feedback" method="POST" action="dubavaya.maria@mail.ru"
+                                        id="form">
                                         <h3>Бесплатная консультация</h3>
                                         <p>Как вернуть средства законным путём сейчас?</p>
-                                        <input name="name" type="text" placeholder="Ваше имя" required="required"
-                                            autocomplete="off" />
-                                        <select required="required">
+                                        <input name="name" type="text" placeholder="Ваше имя" autocomplete="off"
+                                            class="name__input _req" />
+                                        <select>
                                             <option value="1">до 100.000 руб</option>
                                             <option value="2">от 100.000 до 300.000 руб</option>
                                             <option value="3">свыше 300.000</option>
                                         </select>
-                                        <input name="tel" type="tel" placeholder="Ваш телефон" required="required"
-                                            autocomplete="off" />
-                                        <p><input class="btn" name="submit_btn" type="submit" value="ПОЛУЧИТЬ ПОМОЩЬ" />
-                                        </p>
+                                        <input name="tel" type="tel" placeholder="Ваш телефон" autocomplete="off"
+                                            class="tel__input _req" />
+                                        <input id="formAgreement" checked name="agreement" type="checkbox"
+                                            class="checkbox__input _req" />
+                                        <label for="formAgreement" class="checkbox__label"><span>Cогласие на обработку
+                                                персональных данных в соответствии с <a
+                                                    href="./conditions_page/conditions.html">Условиями</a>*</span></label>
+                                        <p><input class="btn" name="submit" type="submit" value="ПОЛУЧИТЬ ПОМОЩЬ"></p>
                                     </form>
                                 </div>
                             </div>
@@ -141,24 +146,30 @@
             <div class="popup__body">
                 <div class="popup__content">
                     <a href="" class="popup__close">✖</a>
-                    <form class="popup__form" name="feedback" method="POST" action="dubavaya.maria@mail.ru" id="forma">
+                    <form class="popup__form" name="feedback" method="POST" action="dubavaya.maria@mail.ru" id="form">
                         <h4>Бесплатная консультация</h4>
                         <p>Как вернуть средства законным путём сейчас?</p>
-                        <input name="name" type="text" placeholder="Ваше имя" required="required" autocomplete="off" />
-                        <select required="required">
+                        <input name="name" type="text" placeholder="Ваше имя" autocomplete="off"
+                            class="name__input2 _req" />
+                        <select>
                             <option value="1">до 100.000 руб</option>
                             <option value="2">от 100.000 до 300.000 руб</option>
                             <option value="3">свыше 300.000</option>
                         </select>
-                        <input name="tel" type="tel" placeholder="Ваш номер телефон*" required="required"
-                            autocomplete="off" />
-                        <span>Отправляя данную форму, вы даете согласие на обработку Ваших персональных данных.</span>
-                        <p><input class="btn2" name="submit_btn2" type="submit" value="ПОЛУЧИТЬ ПОМОЩЬ" /></p>
+                        <input name="tel" type="tel" placeholder="Ваш номер телефон" autocomplete="off"
+                            class="tel__input2 _req _tel" />
+                        <input id="formAgreement2" checked name="agreement" type="checkbox"
+                            class="checkbox__input2 _req" />
+                        <label for="formAgreement2" class="checkbox__label2"><span>Cогласие на обработку
+                                персональных данных в
+                                соответствии с <a href="./conditions_page/conditions.html">Условиями</a>*</span></label>
+                        <p><input class="btn2" name="submit" type="submit" value="ПОЛУЧИТЬ ПОМОЩЬ" /></p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
