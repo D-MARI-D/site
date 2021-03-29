@@ -1886,6 +1886,26 @@ font-size: 1px;}
 	padding: 20rem;
 }
 
+.content__images .forma .border .form{
+	position: relative;
+}
+.content__images .forma .border .form::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(51, 51, 51, 0.9) url(../images/loading.gif) center / 50px no-repeat;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease 0s;
+}
+.content__images .forma .border .form._sending::after{
+	opacity: 1;
+	visibility: visible;
+}
+
 .content__images .forma .border .form .name__input, .tel__input{
 	background-color: #f7f3ff;
 	margin: 0 0 15px 10px;
@@ -1954,6 +1974,16 @@ font-size: 1px;}
 .content__images .forma .border .form .checkbox__input{
 	display: inline-block;
 	margin: 0 0 0 0;
+}
+
+.content__images .forma .border .form .name__input._error  {
+	box-shadow: 0 0 15px red;
+}
+.content__images .forma .border .form .tel__input._error {
+	box-shadow: 0 0 15px red;
+}
+.content__images .forma .border .form .checkbox__input._error {
+	box-shadow: 0 0 15px red;
 }
 
 .content__images .forma .border .form .checkbox__label{
@@ -2279,4 +2309,14 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 
 .popup .popup__body .popup__content .popup__form .btn2:active {
 background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131) 50%,rgba(8,131,110) 100%);
+}
+
+.popup .popup__body .popup__content .popup__form .name__input2._error{
+	box-shadow: 0 0 15px red;
+}
+.popup .popup__body .popup__content .popup__form .tel__input2._error{
+	box-shadow: 0 0 15px red;
+}
+.popup .popup__body .popup__content .popup__form .checkbox__input2._error{
+	box-shadow: 0 0 15px red;
 }

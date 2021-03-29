@@ -8,6 +8,27 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
 
       let error = formValidate(form);
+
+      if (error === 0) {
+         form.classList.add('_sending');
+         let response = await fetch('sendmail.php', {
+            method: 'POST',
+            body: formData
+         });
+         if (response.ok) {
+            let result = await response.json();
+            alert(result.message);
+            formPreview.innerHTML = '';
+            form.reset();
+            form.classList.remove('_sending');
+         } else {
+            alert("Ошибка");
+            form.classList.remove('_sending');
+         }
+
+      } else {
+         alert('Зфполните обязательные поля');
+      }
    }
 
    function formValidate(form) {
@@ -19,21 +40,32 @@ document.addEventListener('DOMContentLoaded', function () {
          formRemoveError(input);
 
          if (input.classList.contains('_tel')) {
-
+            if (telTest(input)) {
+               formAddError(input);
+               error++;
+            }
          }
-
+         else if (input.getAttribute("type") === "checkbox" && input.checked === false) {
+            formAddError(input);
+            error++;
+         }
+         else {
+            if (input.value === '') {
+               formAddError(input);
+               error++;
+            }
+         }
       }
+      return error;
    }
+
    function formAddError(input) {
-      input.perentElement.classList.add('-error');
+      input.perentElement.classList.add('_error');
       input.classList.add('_error');
    }
    function formRemoveError(input) {
       input.perentElement.classList.remove('_error');
       input.classList.remove('_error');
-   }
-   function telTest(input) {
-      return
    }
 
 });
