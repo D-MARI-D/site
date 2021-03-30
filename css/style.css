@@ -106,11 +106,27 @@ font-size: 1px;}
 		margin: -55% 0 0 0;
 		text-align: center;
 	}
-	.content .content__images .forma .border form h3{
-		font-size: 20rem;
+	.content .content__images .forma .border .form .btn{
+		margin-top: 15rem;
 	}
-	.content .content__images .forma .border form p{
-		font-size: 18rem;
+	.content .content__images .forma .border .form h3{
+		font-size: 19px;
+		margin: -5rem 0 5rem 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 5rem;
+		margin-bottom: 20rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 0 -15rem;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
 	}
 	.content .logo__container .logos .logo{
 		margin-right: 85rem;
@@ -196,11 +212,27 @@ font-size: 1px;}
 		margin: -52% 5% 0 0;
 		text-align: center;
 	}
-	.content .content__images .forma .border form h3{
-		font-size: 20rem;
+	.content .content__images .forma .border .form .btn{
+		margin-top: 15rem;
 	}
-	.content .content__images .forma .border form p{
-		font-size: 18rem;
+	.content .content__images .forma .border .form h3{
+		font-size: 19px;
+		margin: -5rem 0 5rem 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 5rem;
+		margin-bottom: 20rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 0 -15rem;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
 	}
 	.content .logo__container .logos .logo{
 		margin-right: 80rem;
@@ -290,11 +322,24 @@ font-size: 1px;}
 		margin: -58% 8% 0 0;
 		text-align: center;
 	}
-	.content .content__images .forma .border form h3{
-		font-size: 26rem;
+	.content .content__images .forma .border .form h3{
+		font-size: 19px;
+		margin: -5rem 0 5px 0;
 	}
-	.content .content__images .forma .border form p{
-		font-size: 24rem;
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 5rem;
+		margin-bottom: 30rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 -5rem -5rem;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
 	}
 	.content .logo__container .logos .logo{
 		margin-right: 75rem;
@@ -352,50 +397,55 @@ font-size: 1px;}
 		top: 10px;
 		font-size: 42px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
-		font-size: 56rem;
+	body .popup .popup__body .popup__content .form h4{
+		font-size: 52rem;
 		margin: 5rem 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
-		font-size: 40rem;
+	body .popup .popup__body .popup__content .form p{
+		font-size: 38rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 36rem;
-		height: 110rem;
+		height: 100rem;
 		width: 760rem;
 		margin: 0 20rem 35rem 60rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 36rem;
-		height: 110rem;
+		height: 100rem;
 		width: 760rem;
 		margin: 0 20rem 35rem 60rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 36rem;
-		height: 110rem;
+		height: 100rem;
 		width: 760rem;
 		margin: 0 20rem 35rem 60rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 36rem;
 		margin: 0 0 0 2.1875rem;
 		max-width: 760rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 26rem;
 		margin: 10rem 0 40rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 600rem;
-		height: 110rem;
+		height: 100rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 36rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 50rem 5rem;
+		text-align: center;
 	}
 }
 
@@ -445,6 +495,25 @@ font-size: 1px;}
 	.content .content__images .forma{
 		margin:-65% 5% 0 0;
 		text-align: center;
+	}
+	.content .content__images .forma .border .form h3{
+		font-size: 20px;
+		margin: 10rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 10rem;
+		margin-bottom: 30rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 5rem 0;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
 	}
 	.content .logo__container .logos .logo{
 		margin-right: 75rem;
@@ -505,49 +574,54 @@ font-size: 1px;}
 		top: 2px;
 		font-size: 36px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 58rem;
 		margin: 0 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 32rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 36rem;
 		height: 100rem;
 		width: 680rem;
 		margin: 0 20rem 35rem 85rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 36rem;
 		height: 100rem;
 		width: 680rem;
 		margin: 0 20rem 35rem 85rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 36rem;
 		height: 100rem;
 		width: 680rem;
 		margin: 0 20rem 35rem 85rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 36rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 22rem;
 		margin: 10rem 0 40rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 510rem;
 		height: 100rem;
 		margin: 0 0 0 0;
 		font-size: 26rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 50rem 5rem;
+		text-align: center;
 	}
 }	
 
@@ -602,6 +676,25 @@ font-size: 1px;}
 	.content .content__images .forma{
 		margin:-115% -3% 0 0;
 		text-align: center;
+	}
+	.content .content__images .forma .border .form h3{
+		font-size: 20px;
+		margin: 10rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 10rem;
+		margin-bottom: 30rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 5rem 0;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
 	}
 	.content .logo__container .logos h2{
 		font-size: 30rem;
@@ -663,49 +756,54 @@ font-size: 1px;}
 		top: 5px;
 		font-size: 40px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 62rem;
 		margin: 25rem 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 36rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 40rem;
 		height: 130rem;
 		width: 810rem;
 		margin: 0 20rem 40rem 70rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 40rem;
 		height: 130rem;
 		width: 810rem;
 		margin: 0 20rem 40rem 70rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 40rem;
 		height: 130rem;
 		width: 810rem;
 		margin: 0 20rem 40rem 70rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 40rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 28rem;
 		margin: 10rem 0 50rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 600rem;
 		height: 130rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 40rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 50rem 5rem;
+		text-align: center;
 	}
 }	
 
@@ -763,6 +861,25 @@ font-size: 1px;}
 		margin:-95% 10% 10% 26%;
 		text-align: center;
 	}
+	.content .content__images .forma .border .form h3{
+		font-size: 20px;
+		margin: 10rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 10rem;
+		margin-bottom: 30rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 40rem 0;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
+	}
 	body .wrapper__images2{
 		position: absolute;
 		bottom: -150px;
@@ -805,49 +922,54 @@ font-size: 1px;}
 		top: 5px;
 		font-size: 40px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 70rem;
 		margin: 25rem 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 42rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 40rem;
 		height: 130rem;
 		width: 800rem;
 		margin: 0 20rem 40rem 85rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 40rem;
 		height: 130rem;
 		width: 800rem;
 		margin: 0 20rem 40rem 85rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 40rem;
 		height: 130rem;
 		width: 800rem;
 		margin: 0 20rem 40rem 85rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 40rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 28rem;
 		margin: 10rem 0 60rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 600rem;
 		height: 130rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 40rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 40rem 5rem;
+		text-align: center;
 	}
 }
 @media screen and (min-width: 482px) and (max-width: 640px){
@@ -905,6 +1027,25 @@ font-size: 1px;}
 		margin:-100% 15% 10% 0;
 		text-align: center;
 	}
+	.content .content__images .forma .border .form h3{
+		font-size: 20px;
+		margin: 10rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 10rem;
+		margin-bottom: 40rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 30rem 0;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
+	}
 	body .wrapper__images2{
 		position: absolute;
 		bottom: -150px;
@@ -947,49 +1088,54 @@ font-size: 1px;}
 		top: 2px;
 		font-size: 34px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 74rem;
 		margin: 0 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 46rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 40rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 40rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 40rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 40rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 34rem;
 		margin: 10rem 0 70rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 700rem;
 		height: 160rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 50rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 40rem 5rem;
+		text-align: center;
 	}
 }
 
@@ -1047,6 +1193,25 @@ font-size: 1px;}
 		margin:-120% 6% 10% 0;
 		text-align: center;
 	}
+	.content .content__images .forma .border .form h3{
+		font-size: 20px;
+		margin: 20rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 10rem;
+		margin-bottom: 60rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 40rem 0;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
+	}
 	body .wrapper__images2{
 		position: absolute;
 		bottom: -150px;
@@ -1089,49 +1254,54 @@ font-size: 1px;}
 		top: 2px;
 		font-size: 28px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 76rem;
 		margin: 30rem 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 48rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 50rem;
 		height: 170rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 50rem;
 		height: 170rem;
 		width: 1000rem;
-		margin: 0 50rem 60rem 75rem;
+		margin: 0 50rem 40rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 50rem;
 		height: 170rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 50rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 36rem;
 		margin: 10rem 0 60rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 700rem;
 		height: 160rem;
 		margin: 0 0.1875rem 0 0;
 		font-size: 40rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 40rem 5rem;
+		text-align: center;
 	}
 }
 
@@ -1189,6 +1359,25 @@ font-size: 1px;}
 		margin:-120% 0 10% 28%;
 		text-align: center;
 	}
+	.content .content__images .forma .border .form h3{
+		font-size: 20px;
+		margin: 30rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 10rem;
+		margin-bottom: 60rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 50rem 0;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
+	}
 	body .wrapper__images2{
 		position: absolute;
 		bottom: -150px;
@@ -1231,49 +1420,54 @@ font-size: 1px;}
 		top: 2px;
 		font-size: 28px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 80rem;
 		margin: 50rem 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 48rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 60rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 60rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 60rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 60rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 36rem;
 		margin: 10rem 0 70rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 700rem;
 		height: 180rem;
-		margin: 0 0.1875rem 0 0;
+		margin: 60rem 0.1875rem 0 0;
 		font-size: 50rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 40rem 5rem;
+		text-align: center;
 	}
 }
 
@@ -1343,6 +1537,25 @@ font-size: 1px;}
 		height: 450px;
 		padding: 15px 15px;
 	}
+	.content .content__images .forma .border .form h3{
+		font-size: 22px;
+		margin: 20rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 16px;
+		margin: 10rem 0 10px 0;
+	}
+	.content__images .forma .border .form .tel__input{
+		margin-right: 10rem;
+		margin-bottom: 60rem;
+	}
+	.content .content__images .forma .border .form .check{
+		display: inline-block;
+		margin: 0 0 50rem 0;
+	}
+	.content .content__images .forma .border .form .checkbox__label{
+		font-size: 12px;
+	}
 	body .wrapper__images2{
 		position: absolute;
 		bottom: -160px;
@@ -1385,50 +1598,55 @@ font-size: 1px;}
 		top: 2px;
 		font-size: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 80rem;
 		margin: 55rem 0 10px 0;
 	}
 	
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 48rem;
 		margin: 0 0 15px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2{
+	body .popup .popup__body .popup__content .form .name__input2{
 		font-size: 56rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 56rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 56rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 56rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 36rem;
 		margin: 10rem 0 65rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
+	body .popup .popup__body .popup__content .form .btn2{
 		width: 700rem;
 		height: 180rem;
-		margin: 0 0.1875rem 0 0;
+		margin: 70rem 0.1875rem 0 0;
 		font-size: 46rem;
+	}
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 30rem 5rem;
+		text-align: center;
 	}
 }
 
@@ -1499,18 +1717,24 @@ font-size: 1px;}
 		height: 435px;
 		padding: 10px 10px;
 	}
+	.content .content__images .forma .border .form h3{
+		font-size: 20px;
+		margin: 40rem 0 5px 0;
+	}
+	.content .content__images .forma .border .form p{
+		font-size: 15px;
+		margin: 10rem 0 10px 0;
+	}
 	.content__images .forma .border .form .tel__input{
 		margin-right: 10rem;
+		margin-bottom: 60rem;
 	}
-	.content .content__images .forma .border .form .checkbox__input{
+	.content .content__images .forma .border .form .check{
 		display: inline-block;
-		font-size: 45rem;
-		margin: 0 0 0 40rem;
+		margin: 0 10rem 60rem 10rem;
 	}
 	.content .content__images .forma .border .form .checkbox__label{
-		font-size: 40rem;
-		;
-		width: 40%;
+		font-size: 12px;
 	}
 	body .wrapper__images2{
 		position: absolute;
@@ -1554,48 +1778,53 @@ font-size: 1px;}
 		top: 2px;
 		font-size: 24px;
 	}
-	body .popup .popup__body .popup__content .popup__form h4{
+	body .popup .popup__body .popup__content .form h4{
 		font-size: 80rem;
 		margin: 50rem 0 10px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form p{
+	body .popup .popup__body .popup__content .form p{
 		font-size: 58rem;
 		margin: 0 0 20px 0;
 	}
-	body .popup .popup__body .popup__content .popup__form .name__input2, .tel__input2{
+	body .popup .popup__body .popup__content .form .name__input2, .tel__input2{
 		font-size: 60rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form .tel__input2{
+	body .popup .popup__body .popup__content .form .tel__input2{
 		font-size: 60rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 25px;
 	}
-	body .popup .popup__body .popup__content .popup__form select{
+	body .popup .popup__body .popup__content .form select{
 		font-size: 60rem;
 		height: 180rem;
 		width: 1000rem;
 		margin: 0 50rem 60rem 75rem;
 		padding-left: 20px;
 	}
-	body .popup .popup__body .popup__content .popup__form option{
+	body .popup .popup__body .popup__content .form option{
 		font-size: 60rem;
 		margin: 0 0 0 2.1875rem;
 	}
-	body .popup .popup__body .popup__content .popup__form span{
+	body .popup .popup__body .popup__content .form span{
 		font-size: 42rem;
 		margin: 10rem 0 70rem 0;
 		letter-spacing: 1rem;
 	}
-	body .popup .popup__body .popup__content .popup__form .btn2{
-		width: 700rem;
-		height: 180rem;
-		margin: 0 0.1875rem 0 0;
+	body .popup .popup__body .popup__content .form .check2{
+		display: inline-block;
+		margin: 0 5rem 40rem 5rem;
+		text-align: center;
+	}
+	body .popup .popup__body .popup__content .form .btn2{
+		width: 780rem;
+		height: 200rem;
+		margin: 80rem 0.1875rem 0 0;
 		font-size: 48rem;
 	}
 }
@@ -1973,7 +2202,7 @@ font-size: 1px;}
 
 .content__images .forma .border .form .checkbox__input{
 	display: inline-block;
-	margin: 0 0 0 0;
+	margin: 0 0 0 5rem;
 }
 
 .content__images .forma .border .form .name__input._error  {
@@ -2191,25 +2420,25 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
    text-decoration: none;
 }
 
-.popup .popup__body .popup__content .popup__form{
+.popup .popup__body .popup__content .form{
 	margin: 0 auto;
 }
 
-.popup .popup__body .popup__content .popup__form h4{
+.popup .popup__body .popup__content .form h4{
 	font-size: 38rem;
 	margin: 10px 0 15px 0;
 	font-weight: 600;
 	text-align: center;
 }
 
-.popup .popup__body .popup__content .popup__form p{
+.popup .popup__body .popup__content .form p{
 	font-size: 22rem;
 	color: #9a9ea5;
 	margin: 0 0 30px 0;
 	text-align: center;
 }
 
-.popup .popup__body .popup__content .popup__form .name__input2, .tel__input2{
+.popup .popup__body .popup__content .form .name__input2, .tel__input2{
 	background-color: #f7f3ff;
 	font-size: 18rem;
 	height: 60rem;
@@ -2223,20 +2452,20 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 	border: none;
 }
 
-.popup .popup__body .popup__content .popup__form input::-webkit-input-placeholder{
+.popup .popup__body .popup__content .form input::-webkit-input-placeholder{
 	color: #000;
 }
-.popup .popup__body .popup__content .popup__form input::-moz-placeholder{
+.popup .popup__body .popup__content .form input::-moz-placeholder{
 	color: #000;
 }
-.popup .popup__body .popup__content .popup__form input:-moz-placeholder{
+.popup .popup__body .popup__content .form input:-moz-placeholder{
 	color: #000;
 }
-.popup .popup__body .popup__content .popup__form input:-ms-input-placeholder{
+.popup .popup__body .popup__content .form input:-ms-input-placeholder{
 	color: #000;
 }
 
-.popup .popup__body .popup__content .popup__form select{
+.popup .popup__body .popup__content .form select{
 	background-color: #f7f3ff;
 	font-size: 18rem;
 	height: 60rem;
@@ -2250,7 +2479,7 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 	border: none;
 }
 
-.popup .popup__body .popup__content .popup__form option{
+.popup .popup__body .popup__content .form option{
 	display: inline-block;
 	font-size: 18rem;
 	margin: 0 0 0 2.1875rem;
@@ -2258,16 +2487,16 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 	font-style: italic;
 }
 
-.popup .popup__body .popup__content .popup__form .checkbox__label2{
+.popup .popup__body .popup__content .form .checkbox__label2{
 	font-size: 14rem;
 	color: #9a9ea5;
 }
 
-.popup .popup__body .popup__content .popup__form .checkbox__label2 a{
+.popup .popup__body .popup__content .form .checkbox__label2 a{
 	color: rgba(10,183,153,1);
 }
 
-.popup .popup__body .popup__content .popup__form .btn2{
+.popup .popup__body .popup__content .form .btn2{
 	color: #fff;
 	text-decoration: none;
 	outline: none;
@@ -2283,7 +2512,7 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 	border: none;
 }
 
-.popup .popup__body .popup__content .popup__form .btn2{
+.popup .popup__body .popup__content .form .btn2{
 	display: inline-block;
 	padding: 25rem 55rem;
 	border-radius: 14px;
@@ -2303,20 +2532,20 @@ background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131)
 	-moz-transition: .8s;
 }
 	
-.popup .popup__body .popup__content .popup__form .btn2:hover {
+.popup .popup__body .popup__content .form .btn2:hover {
 	background-position: right center;
 } 
 
-.popup .popup__body .popup__content .popup__form .btn2:active {
+.popup .popup__body .popup__content .form .btn2:active {
 background-image: linear-gradient( to right,rgb(8, 131, 110) 0%,rgb(8, 189, 131) 50%,rgba(8,131,110) 100%);
 }
 
-.popup .popup__body .popup__content .popup__form .name__input2._error{
+.popup .popup__body .popup__content .form .name__input2._error{
 	box-shadow: 0 0 15px red;
 }
-.popup .popup__body .popup__content .popup__form .tel__input2._error{
+.popup .popup__body .popup__content .form .tel__input2._error{
 	box-shadow: 0 0 15px red;
 }
-.popup .popup__body .popup__content .popup__form .checkbox__input2._error{
+.popup .popup__body .popup__content .form .checkbox__input2._error{
 	box-shadow: 0 0 15px red;
 }
